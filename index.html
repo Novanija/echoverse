@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Designing Company</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+            color: #fff;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: rgba(0,0,0,0.3);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .contact-btn {
+            padding: 10px 20px;
+            background: #ff4b2b;
+            border: none;
+            border-radius: 30px;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .contact-btn:hover {
+            background: #ff6f61;
+        }
+        .section {
+            padding: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .section img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 20px;
+            margin: 20px;
+        }
+        .section .text {
+            flex: 1;
+            min-width: 300px;
+        }
+        .section .text h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .section .text p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .section .text .contact-btn {
+            margin-top: 20px;
+        }
+        footer {
+            background: rgba(0,0,0,0.5);
+            padding: 50px 20px 30px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 50px;
+        }
+        footer h4 {
+            margin-bottom: 20px;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 5px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+        footer p {
+            grid-column: 1 / -1;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            header, .section {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav {
+                margin: 20px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Echoverse</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+            <a href="#">Upcoming</a>
+            <button class="contact-btn" onclick="openWhatsApp()">Contact</button>
+        </nav>
+    </header>
+
+    <div class="section">
+        <div class="text">
+            <h2>Welcome to Your Web Designing Company</h2>
+            <p>We specialize in creating stunning, responsive, and modern websites tailored for your business. From small personal portfolios to large corporate sites, we turn your ideas into digital reality with powerful, engaging designs.</p>
+            <button class="contact-btn" onclick="openWhatsApp()">Contact Us</button>
+        </div>
+        <img src="images/web design.jpg" alt="Web Design">
+    </div>
+
+    <div class="section">
+        <img src="images/achievement.jpg" alt="Achievement">
+        <div class="text">
+            <h2>What Can You Achieve With Your Company Website?</h2>
+            <p>✔ Establish your digital identity<br>
+               ✔ Attract and convert new customers<br>
+               ✔ Showcase your services globally<br>
+               ✔ Build credibility and grow your brand<br>
+               ✔ Turn visitors into loyal clients</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="text">
+            <h2>"Your Website Is Your Digital Storefront — Make It Count!"</h2>
+            <p>Take your business to the next level with a professionally crafted website. Contact us now for a free consultation and start your digital journey!</p>
+            <button class="contact-btn" onclick="openWhatsApp()">Contact Now</button>
+            <button class="contact-btn" onclick="openWhatsApp()">Free Consultation</button>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <h4>Services</h4>
+            <a href="#">E-commerce</a>
+            <a href="#">Website Security</a>
+            <a href="#">Mobile-Responsive Sites</a>
+            <a href="#">SEO Optimization</a>
+            <a href="#">Custom Web Design</a>
+        </div>
+        <div>
+            <h4>Company</h4>
+            <a href="#">Services</a>
+            <a href="#">Locations</a>
+            <a href="#">About</a>
+        </div>
+        <div>
+            <h4>Global</h4>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <div>
+            <h4>Upcoming</h4>
+            <a href="#">Echo verse</a>
+        </div>
+        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function openWhatsApp() {
+            window.open('https://wa.me/919876543210', '_blank');
+        }
+    </script>
+</body>
+</html>
