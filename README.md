@@ -19,6 +19,7 @@ https://novanija.github.io/echoverse
  ┣ 📄 web design.jpg
  ┣ 📄 achievement.jpg
 
+
 ✨ Features
 Hero Section with a stunning sunrise landscape image and personal branding.
 
