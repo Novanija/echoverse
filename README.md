@@ -47,4 +47,5 @@ Hero Section with a stunning sunrise landscape image and personal branding.
 🙌 Credits
 
 Photography: Unsplash (for placeholder images)
+
 Inspiration: Nature, passion, and personal growth.
