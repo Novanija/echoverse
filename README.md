@@ -1,12 +1,9 @@
-# echoverse
+# Echoverse
 
 🌅 EchoVerse — Portfolio Website
 Welcome to EchoVerse — a simple, clean, and aesthetic personal portfolio website built to showcase creative projects, passions, and achievements.
 
-📸 Preview
-Landing Page
 
-Achievements Section
 
 🌄 Live Demo
 
