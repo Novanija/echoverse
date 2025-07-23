@@ -5,10 +5,6 @@ Welcome to EchoVerse — a simple, clean, and aesthetic personal portfolio websi
 
 
 
-🌄 Live Demo
-
-https://novanija.github.io/echoverse
-
 📂 Project Structure
 📁 /project
  ┣ 📄 index.html
